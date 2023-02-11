@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-237017-fix",
+	"version": "${version}",
+	"name": "MC-237017 Fix",
+	"description": "Fixes lava generation at Y-54 and lower.",
+	"authors": [
+		"Andrew6rant (Andrew Grant)"
+	],
+	"contact": {
+		"homepage": "https://bugs.mojang.com/browse/MC-237017",
+		"sources": "https://github.com/Andrew6rant/MC-237017-Fix",
+		"issues": "https://github.com/Andrew6rant/MC-237017-Fix/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mc-237017-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"mc-237017-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.12.0",
+		"minecraft": [
+			"1.18.x",
+			"1.19.x"
+		],
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
